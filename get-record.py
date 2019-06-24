@@ -9,8 +9,6 @@ if __name__ == "__main__":
     """This program displays the state of radios and temp from a log file
 
     Parameters
-    ----------
-    file_location (argv[1]): which file to read
     which_record (argv[2]): the line that contains the record we want
     """
 
@@ -28,3 +26,6 @@ if __name__ == "__main__":
 
     # Display the state and temp
     pl.display_state_temp(values[0], values[1], values[2])
+
+    print("Application completed")
+
