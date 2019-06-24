@@ -39,3 +39,5 @@ if __name__ == "__main__":
     # Get the record and values
 
     # Display the state and temp
+
+    print("Done")
